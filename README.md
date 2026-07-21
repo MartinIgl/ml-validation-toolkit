@@ -15,10 +15,24 @@ A lightweight Python toolkit to evaluate, compare and document Machine Learning 
 ml-validation-toolkit
 │
 ├── src
-│   ├── metrics.py
-│   └── validation.py
+│   └──ml_validation
+│       ├── __init__.py
+│       ├── metrics.py
+│       ├── plots.py
+│       ├── reports.py
+│       └── validation.py
 │
 └── tests
     └── test_metrics.py
     
-🚧 Under development
+✔ Accuracy
+✔ Precision
+✔ Recall
+✔ F1 Score
+✔ ROC AUC
+✔ Confusion Matrix
+✔ HTML Reports
+
+Status
+
+🚧 In Development

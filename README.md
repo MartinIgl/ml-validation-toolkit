@@ -1,6 +1,4 @@
-================================================================================
-                         ML VALIDATION TOOLKIT
-================================================================================
+## ML VALIDATION TOOLKIT
 
 A lightweight Python toolkit to evaluate, compare, and document Machine 
 Learning classification models.
@@ -80,6 +78,20 @@ If you run validation.py directly, it includes a built-in demo:
     python src/ml_validation/validation.py
 
 --------------------------------------------------------------------------------
+🔮 FUTURE WORK (ROADMAP)
+--------------------------------------------------------------------------------
+
+Planned extensions for the toolkit:
+
+* ROC Curve & AUC: Visualizing trade-offs at various threshold settings.
+* Confusion Matrix: Detailed breakdown of prediction types.
+* MCC (Matthews Correlation Coefficient): Balanced measure for binary 
+  classification.
+* Cohen's Kappa: Statistic for inter-rater reliability.
+* Multiclass Metrics: Support for >2 classes (One-vs-Rest, Macro/Micro 
+  averaging).
+
+--------------------------------------------------------------------------------
 🧪 RUNNING TESTS
 --------------------------------------------------------------------------------
 
@@ -97,5 +109,3 @@ Using pytest:
 --------------------------------------------------------------------------------
 
 MIT License
-
-================================================================================      

@@ -22,14 +22,23 @@ Learning classification models.
 --------------------------------------------------------------------------------
 
 ml-validation-toolkit/
+
 ├── src/
+
 │   └── ml_validation/
+
 │       ├── __init__.py
+
 │       ├── metrics.py      # Core metric calculations
+
 │       ├── plots.py        # Visualization functions (Pending)
+
 │       ├── reports.py      # HTML report generation (Pending)
+
 │       └── validation.py   # Orchestrator (evaluate_model)
+
 └── tests/
+
     └── test_metrics.py     # Unit tests
 
 --------------------------------------------------------------------------------

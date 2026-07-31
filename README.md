@@ -35,4 +35,14 @@ ml-validation-toolkit
 
 Status
 
-🚧 In Development
+# Validation.py
+## Ejemplo de uso directo si se ejecuta como script
+if __name__ == "__main__":
+    y_t = [1, 0, 1, 1]
+    y_p = [1, 0, 0, 1]
+    
+    resultados = evaluate_model(y_t, y_p)
+    
+    print("Resultados de la evaluación:")
+    for metrica, valor in resultados.items():
+        print(f"{metrica.capitalize()}: {valor:.4f}")   

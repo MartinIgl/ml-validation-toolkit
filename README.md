@@ -1,7 +1,5 @@
 ================================================================================
-                       
-                         ML VALIDATION TOOLKIT
-                         
+                       ML VALIDATION TOOLKIT  
 ================================================================================
 
 A lightweight Python toolkit to evaluate, compare, and document Machine 
@@ -20,26 +18,16 @@ Learning classification models.
 --------------------------------------------------------------------------------
 📂 PROJECT STRUCTURE
 --------------------------------------------------------------------------------
-
-ml-validation-toolkit/
-
-├── src/
-
-│   └── ml_validation/
-
-│       ├── __init__.py
-
-│       ├── metrics.py      # Core metric calculations
-
-│       ├── plots.py        # Visualization functions (Pending)
-
-│       ├── reports.py      # HTML report generation (Pending)
-
-│       └── validation.py   # Orchestrator (evaluate_model)
-
-└── tests/
-
-    └── test_metrics.py     # Unit tests
+    ml-validation-toolkit/
+    ├── src/
+    │   └── ml_validation/
+    │       ├── __init__.py
+    │       ├── metrics.py      # Core metric calculations
+    │       ├── plots.py        # Visualization functions (Pending)
+    │       ├── reports.py      # HTML report generation (Pending)
+    │       └── validation.py   # Orchestrator (evaluate_model)
+    └── tests/
+        └── test_metrics.py     # Unit tests
 
 --------------------------------------------------------------------------------
 ✅ FEATURES STATUS
